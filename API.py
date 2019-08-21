@@ -43,7 +43,7 @@ import os
 server = 'tcp:sportsoracle.database.windows.net' 
 database = 'ncaab' 
 username = 'woodsjo' 
-password = 'joW*0102' 
+password = '********' 
 cnxn = pyodbc.connect('DRIVER={ODBC Driver 17 for SQL Server};SERVER='+server+';DATABASE='+database+';UID='+username+';PWD='+ password)
 cursor = cnxn.cursor()
 
